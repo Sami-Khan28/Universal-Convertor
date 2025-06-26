@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [input, setInput] = useState('');
-  const [conversionType, setConversionType] = useState('kgToLbs');
+  const [conversionType, setConversionType] = useState('KG-to-LBS');
   const [result, setResult] = useState('');
 
   const handleConvert = () => {
