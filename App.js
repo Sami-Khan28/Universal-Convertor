@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <div className="converter-box">
-        <h2>🌐 Unit Converter</h2>
+        <h2> Unit Converter</h2>
         <input
           type="text"
           placeholder="Enter value"
@@ -56,7 +56,7 @@ function App() {
         <button className="btn" onClick={handleConvert}>Convert</button>
         {result && (
           <div className="result">
-            <h3>✅ Result:</h3>
+            <h3> Result:</h3>
             <p>{result}</p>
           </div>
         )}
